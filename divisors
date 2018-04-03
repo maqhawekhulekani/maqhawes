@@ -1,0 +1,7 @@
+num = int ( input ("enter a number"))
+listrange= list (range (1,num))
+divisorlist = []
+for number in listrange:
+    if num % number == 0:
+        divisorlist.append(number)
+print (divisorlist)

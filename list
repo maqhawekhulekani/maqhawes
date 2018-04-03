@@ -1,0 +1,7 @@
+list = ["maqhawe" , "sgansonso" , "narrator" , "doctor" , "dada"]
+list.append ("mrena")
+list.extend("narrotor")
+del ("mrena")
+if "mrena" in list :
+    print("yay")
+print (list)
